@@ -9,15 +9,23 @@ public class First_Class {
 //
 //	}
 	
+//	public static void main(String[] args)
+//	{	
+//		Scanner s1=new Scanner(System.in);
+//		int x;
+//		x=s1.nextInt();
+//		System.out.println(x);
+//		
+//		E e1=new E();
+//		e1.show();
+//	}
+	
 	public static void main(String[] args)
 	{	
-		Scanner s1=new Scanner(System.in);
-		int x;
-		x=s1.nextInt();
-		System.out.println(x);
-		
-		E e1=new E();
-		e1.show();
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter a string: ");
+		String str= sc.next();
+		System.out.print("You have entered: "+str); 
 	}
 	
 	
